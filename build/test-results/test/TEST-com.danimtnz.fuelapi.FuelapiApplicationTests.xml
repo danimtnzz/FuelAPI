@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.danimtnz.fuelapi.FuelapiApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-01T22:34:55" hostname="PC-DANI" time="0.707">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.danimtnz.fuelapi.FuelapiApplicationTests" time="0.707"/>
+  <system-out><![CDATA[00:34:53.513 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.danimtnz.fuelapi.FuelapiApplicationTests]: FuelapiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+00:34:53.611 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.danimtnz.fuelapi.FuelapiApplication for test class com.danimtnz.fuelapi.FuelapiApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2024-05-02T00:34:54.017+02:00  INFO 8308 --- [fuelapi] [    Test worker] c.d.fuelapi.FuelapiApplicationTests      : Starting FuelapiApplicationTests using Java 17.0.10 with PID 8308 (started by danim in C:\Users\danim\IdeaProjects\FuelAPI)
+2024-05-02T00:34:54.018+02:00  INFO 8308 --- [fuelapi] [    Test worker] c.d.fuelapi.FuelapiApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-05-02T00:34:55.526+02:00  INFO 8308 --- [fuelapi] [    Test worker] c.d.fuelapi.FuelapiApplicationTests      : Started FuelapiApplicationTests in 1.73 seconds (process running for 2.797)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
