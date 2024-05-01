@@ -1,0 +1,4 @@
+# Ignora todos los archivos
+*
+# Excepto el directorio build/libs
+!build/libs/
