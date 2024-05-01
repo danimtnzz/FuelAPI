@@ -15,9 +15,7 @@ import java.io.OutputStream;
 
 @SpringBootApplication
 public class FuelapiApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(FuelapiApplication.class, args);
 	}
-
 }
