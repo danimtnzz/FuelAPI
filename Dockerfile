@@ -1,6 +1,6 @@
 FROM gradle:7.3.3-jdk17 AS build
 COPY . .
-RUN gradle build --no-daemon
+RUN ./gradlew build
 
 FROM openjdk:17.0.1-jdk-slim
 COPY --from=build build/libs/fuelapi-0.0.1-SNAPSHOT.jar fuelapi.jar
