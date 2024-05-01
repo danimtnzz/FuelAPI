@@ -1,5 +1,5 @@
 # Usar una imagen base de Java 17
-FROM adoptopenjdk/openjdk17:alpine-slim
+FROM amazoncorretto:17-alpine
 
 # Directorio de trabajo en el contenedor
 WORKDIR /app
